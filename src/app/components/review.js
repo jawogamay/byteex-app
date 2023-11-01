@@ -6,19 +6,19 @@ import Star from "./icons/Star";
 const Review = ({ profilePic = Profile, name, review, rating = 5, credentials }) => {
   console.log(rating)
   return (
-    <article className="mt-16 bg-white text-light border-slate-100 p-4 shadow shadow-black-500/40 rounded-md border">
-      <div className="flex gap-x-4">
-        <Image src={profilePic} alt="Profile photo" />
+    <article className="mt-16 bg-white text-light p-4 shadow  rounded-md border">
+      <div className="lg:flex gap-x-4 text-center items-center justify-center mx-auto">
+        <Image src={profilePic} alt="Profile photo" className="mx-auto"/>
         <p className="self-center text-[15px]">{name}</p>
-        <div className="self-center flex gap-x-1">
+        <div className="self-center flex gap-x-1 justify-center">
           {Array(rating).fill().map((item, index) => (
             <Star key={index}/>
           ))}
-          <p className="text-[11px] ml-3 self-center">{credentials}</p>
+          <p className="text-[11px] ml-3 self-center text-center">{credentials}</p>
         </div>
       </div>
       <div>
-        <p className="text-xs mt-4 leading-6">{review}</p>
+        <p className="text-xs mt-4 leading-6 lg:text-left text-center">{review}</p>
       </div>
     </article>
   );

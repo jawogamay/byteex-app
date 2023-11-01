@@ -30,4 +30,5 @@ body {
 
 p {
   font-family: "SuisseIntl-Regular";
+  text-wrap: balance;
 }

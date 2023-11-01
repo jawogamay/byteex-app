@@ -10,10 +10,10 @@ export default function Home() {
   return (
     <main>
       <PromotionalBanner />
-      <div className="px-16 pt-8">
+      <div className="lg:px-16 pt-8 px-4">
         <Image src={Logo} alt="Byteex Logo" />
-        <div className="md:flex items-center mt-12 justify-between">
-          <div className="flex-initial w-[460px]">
+        <div className="lg:flex items-center mt-12 justify-between">
+          <div className="flex-initial lg:w-[460px]">
             <p className="text-secondary text-[38px]">
               Don’t apologize for being comfortable.
             </p>
@@ -38,9 +38,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-gradient-to-b from-primary to-white px-16 py-8 mt-[-100px]">
-        <p className="text-[#868787] text-center text-xl mt-[90px]">as seen in</p>
-        <div className="flex space-x-16 mt-8 justify-center">
+      <div className="bg-gradient-to-b from-primary to-white px-16 py-8 md:mt-[-100px]">
+        <p className="text-[#868787] text-center text-xl md:mt-[90px]">as seen in</p>
+        <div className="lg:flex md:space-x-16 mt-8 justify-center lg:space-y-8">
           <Image src="/images/ecostylist.png" width={178} height={22} alt="Eco-stylist logo"/>
           <Image src="/images/canadianliving.png" width={115} height={52} alt="Canadian Living logo"/>
           <Image src="/images/jillianharris.png" width={271} height={53} alt="Jillian Harris logo"/>
