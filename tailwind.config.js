@@ -16,7 +16,8 @@ module.exports = {
         'primary': '#F9F0E5',
         'secondary': '#01005B',
         'basic': '#F9F0E5',
-        'light': '#676869'
+        'light': '#676869',
+        'white': '#FFF'
       },
       fontSize: {
         'header': '32px'
