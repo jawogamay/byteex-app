@@ -16,19 +16,21 @@
   }
 }
 @font-face {
-  font-family: "SuisseIntl-Regular";
-  src: url("https://db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot");
-  src: url("https://db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.eot?#iefix")format("embedded-opentype"),
-  url("https://db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff2")format("woff2"),
-  url("https://db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.woff")format("woff"),
-  url("https://db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.ttf")format("truetype"),
-  url("https://db.onlinewebfonts.com/t/88f10bf18a36407ef36bf30bc25a3618.svg#SuisseIntl-Regular")format("svg");
+  @font-face {
+    font-family: "Sofia Pro Regular";
+    src: url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.eot");
+    src: url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/060e116a70e3096c52db16f61aaab194.svg#Sofia Pro Regular")format("svg");
+}
 }
 body {
-  font-family: "SuisseIntl-Regular";
+  font-family: var(--font-poppins);
 }
 
 p,h1,h2,h3,h4,h5,h6 {
-  font-family: "SuisseIntl-Regular";
+  font-family: var(--font-poppins);
   text-wrap: balance;
 }

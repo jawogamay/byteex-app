@@ -4,9 +4,8 @@ import Star from "./icons/Star";
 
 
 const Review = ({ profilePic = Profile, name, review, rating = 5, credentials }) => {
-  console.log(rating)
   return (
-    <article className="lg:w-[460px] z-50 mt-16 bg-white text-light p-4 shadow  rounded-md border">
+    <article className="lg:w-[460px] bg-white text-light p-4 shadow rounded-md border">
       <div className="lg:flex gap-x-4 text-center items-center justify-center mx-auto">
         <Image src={profilePic} alt="Profile photo" className="mx-auto"/>
         <p className="self-center text-[15px]">{name}</p>

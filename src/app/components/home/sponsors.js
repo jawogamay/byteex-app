@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const SponsorSection = () => {
   return (
-    <div className="bg-gradient-to-b from-primary to-white px-16 py-8 md:mt-[-100px]">
-      <p className="text-[#868787] text-center text-xl md:mt-[90px]">
+    <div className="bg-gradient-to-b from-primary to-white px-16 pb-8 pt-32 ">
+      <p className="text-[#868787] text-center text-xl">
         as seen in
       </p>
       <div className="lg:flex md:space-x-16 mt-8 justify-center lg:space-y-8">
