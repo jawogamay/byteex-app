@@ -28,7 +28,7 @@ body {
   font-family: "SuisseIntl-Regular";
 }
 
-p {
+p,h1,h2,h3,h4,h5,h6 {
   font-family: "SuisseIntl-Regular";
   text-wrap: balance;
 }
